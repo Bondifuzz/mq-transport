@@ -1,0 +1,2 @@
+-r requirements.txt
+aioboto3>=8.3.0,<=9.1.0

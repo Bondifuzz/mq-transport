@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  sqs:
+    image: softwaremill/elasticmq-native@sha256:fd7e2193b2cdc6d69b20b353ba385fef8f68955ddd1bd64e32648f650f566503
+    volumes:
+      - type: bind
+        source: ./elasticmq.conf
+        target: /opt/elasticmq.conf
+    ports:
+      - "9324:9324"
+      - "9325:9325"

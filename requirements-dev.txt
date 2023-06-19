@@ -1,0 +1,5 @@
+git+https://github.com/Bondifuzz/aioboto3-hints.git
+python-dotenv==0.17.0
+pdoc3==0.9.2
+black
+pylint

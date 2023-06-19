@@ -1,0 +1,9 @@
+MQ_TRANSPORT_TESTING=1
+MQ_URL=http://localhost:9324
+MQ_REGION=us-east-1
+MQ_BROKER=sqs
+MQ_USERNAME=x
+MQ_PASSWORD=x
+
+MQ_QUEUE_TEST1=mqtransport-test1
+MQ_QUEUE_DLQ=mqtransport-dlq

@@ -1,0 +1,5 @@
+# Store encrypted config
+settings/** filter=git-crypt diff=git-crypt
+
+# Force linux line endings
+* text=auto eol=lf
