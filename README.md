@@ -5,7 +5,7 @@ Message queue based interface for communications in event-driven systems
 ## Install
 
 ```bash
-git clone https://github.com/BondiFuzz/mqtransport
+git clone https://github.com/Bondifuzz/mqtransport
 pip install mqtransport
 ```
 
@@ -24,7 +24,7 @@ See `examples` folder
 Run commands below to get sources and run message broker:
 
 ```bash
-git clone https://github.com/BondiFuzz/mqtransport
+git clone https://github.com/Bondifuzz/mqtransport
 cd mqtransport
 
 pip install -r requirements-sqs.txt

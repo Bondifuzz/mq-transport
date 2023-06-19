@@ -14,7 +14,7 @@ setup(
     version="0.3.3",
     author="Pavel Knyazev",
     author_email="poulix.nova@mail.ru",
-    url="https://github.com/BondiFuzz/mq-transport",
+    url="https://github.com/Bondifuzz/mq-transport",
     description="Message queue based interface for communications in event-driven systems",
     install_requires=parse_requirements("requirements.txt"),
     extras_require={
