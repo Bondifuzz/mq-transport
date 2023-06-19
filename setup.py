@@ -2,8 +2,20 @@ from setuptools import setup, find_packages
 
 
 def parse_requirements(filename):
-    line_iter = (line.strip() for line in open(filename))
-    return [line for line in line_iter if line and not line.startswith("#")]
+    result = []
+    with open(filename, "r", encoding="utf-8") as f:
+        for line in (line.strip() for line in f):
+            if not line or line.startswith("#"):
+                continue
+
+            if line.startswith("-r"):
+                _, filename = line.split(" ", 1)
+                result.extend(parse_requirements(filename))
+            else:
+                result.append(line)
+
+    return result
+
 
 
 with open("README.md", "r", encoding="utf-8") as f:
