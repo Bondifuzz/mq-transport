@@ -28,7 +28,7 @@ setup(
     author_email="poulix.nova@mail.ru",
     url="https://github.com/Bondifuzz/mq-transport",
     description="Message queue based interface for communications in event-driven systems",
-    install_requires=parse_requirements("requirements.txt"),
+    install_requires=parse_requirements("requirements-base.txt"),
     extras_require={
         "sqs": parse_requirements("requirements-sqs.txt"),
     },
